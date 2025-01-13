@@ -1,5 +1,13 @@
 {
   "models": {
+    "o1": {
+      "input": 0.015,
+      "output": 0.06
+    },
+    "o1-2024-12-17": {
+      "input": 0.015,
+      "output": 0.06
+    },
     "o1-preview": {
       "input": 0.015,
       "output": 0.06
@@ -99,7 +107,7 @@
   "fine-tuning": {
     "gpt-4o-2024-08-06": {
       "training": 0.025,
-      "input": 0.00315,
+      "input": 0.00375,
       "output": 0.015
     },
     "gpt-4o-mini-2024-07-18": {
