@@ -1,5 +1,9 @@
 {
   "models": {
+    "o3-mini": {
+      "input": 0.0011,
+      "output": 0.0044
+    },
     "o1": {
       "input": 0.015,
       "output": 0.06
