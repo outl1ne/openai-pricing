@@ -1,5 +1,57 @@
 {
   "models": {
+    "gpt-5.6-sol": {
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 30,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.6-terra": {
+      "input": 2.5,
+      "cachedInput": 0.25,
+      "output": 15,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.6-luna": {
+      "input": 1,
+      "cachedInput": 0.1,
+      "output": 6,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.5": {
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 30,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.5-pro": {
+      "input": 30,
+      "output": 180,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.4": {
+      "input": 2.5,
+      "cachedInput": 0.25,
+      "output": 15,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.4-pro": {
+      "input": 30,
+      "output": 180,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.4-mini": {
+      "input": 0.75,
+      "cachedInput": 0.075,
+      "output": 4.5,
+      "batchDiscount": 0.5
+    },
+    "gpt-5.4-nano": {
+      "input": 0.2,
+      "cachedInput": 0.02,
+      "output": 1.25,
+      "batchDiscount": 0.5
+    },
     "gpt-5": {
       "input": 1.25,
       "cachedInput": 0.125,
@@ -47,12 +99,6 @@
       "output": 0.4,
       "batchDiscount": 0.5
     },
-    "gpt-4.5-preview": {
-      "input": 75,
-      "cachedInput": 37.5,
-      "output": 150,
-      "batchDiscount": 0.5
-    },
     "gpt-4o": {
       "input": 2.5,
       "cachedInput": 1.25,
@@ -84,6 +130,16 @@
       "output": 0.6
     },
     "gpt-4o-mini-realtime-preview": {
+      "input": 0.6,
+      "cachedInput": 0.3,
+      "output": 2.4
+    },
+    "gpt-realtime-2.1": {
+      "input": 4,
+      "cachedInput": 0.4,
+      "output": 24
+    },
+    "gpt-realtime-2.1-mini": {
       "input": 0.6,
       "cachedInput": 0.3,
       "output": 2.4
@@ -121,12 +177,6 @@
       "output": 4.4,
       "batchDiscount": 0.5
     },
-    "o1-mini": {
-      "input": 1.1,
-      "cachedInput": 0.55,
-      "output": 4.4,
-      "batchDiscount": 0.5
-    },
     "o4-mini-deep-research": {
       "input": 2,
       "cachedInput": 0.5,
@@ -155,6 +205,11 @@
       "input": 5,
       "cachedInput": 1.25
     },
+    "gpt-image-2": {
+      "input": 5,
+      "cachedInput": 1.25,
+      "output": 30
+    },
     "chatgpt-4o-latest": {
       "input": 5,
       "output": 15
@@ -178,21 +233,34 @@
     "gpt-3.5-turbo-instruct": {
       "input": 1.5,
       "output": 2
-    },
-    "gpt-3.5-turbo-16k-0613": {
-      "input": 3,
-      "output": 4
-    },
-    "davinci-002": {
-      "input": 2,
-      "output": 2
-    },
-    "babbage-002": {
-      "input": 0.4,
-      "output": 0.4
     }
   },
   "flex-processing": {
+    "gpt-5.6-sol": {
+      "input": 2.5,
+      "cachedInput": 0.25,
+      "output": 15
+    },
+    "gpt-5.6-terra": {
+      "input": 1.25,
+      "cachedInput": 0.125,
+      "output": 7.5
+    },
+    "gpt-5.6-luna": {
+      "input": 0.5,
+      "cachedInput": 0.05,
+      "output": 3
+    },
+    "gpt-5.5": {
+      "input": 2.5,
+      "cachedInput": 0.25,
+      "output": 15
+    },
+    "gpt-5.4": {
+      "input": 1.25,
+      "cachedInput": 0.125,
+      "output": 7.5
+    },
     "gpt-5": {
       "input": 0.625,
       "cachedInput": 0.0625,
@@ -220,6 +288,31 @@
     }
   },
   "priority-processing": {
+    "gpt-5.6-sol": {
+      "input": 10,
+      "cachedInput": 1,
+      "output": 60
+    },
+    "gpt-5.6-terra": {
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 30
+    },
+    "gpt-5.6-luna": {
+      "input": 2,
+      "cachedInput": 0.2,
+      "output": 12
+    },
+    "gpt-5.5": {
+      "input": 10,
+      "cachedInput": 1,
+      "output": 60
+    },
+    "gpt-5.4": {
+      "input": 5,
+      "cachedInput": 0.5,
+      "output": 30
+    },
     "gpt-5": {
       "input": 2.5,
       "cachedInput": 0.25,
@@ -249,6 +342,16 @@
       "input": 10,
       "cachedInput": 0.3,
       "output": 20
+    },
+    "gpt-realtime-2.1": {
+      "input": 32,
+      "cachedInput": 0.4,
+      "output": 64
+    },
+    "gpt-realtime-2.1-mini": {
+      "input": 10,
+      "cachedInput": 0.3,
+      "output": 20
     }
   },
   "image-tokens": {
@@ -256,6 +359,11 @@
       "input": 10,
       "cachedInput": 2.5,
       "output": 40
+    },
+    "gpt-image-2": {
+      "input": 8,
+      "cachedInput": 2,
+      "output": 30
     }
   },
   "fine-tuning": {
@@ -305,16 +413,6 @@
       "training": 8,
       "input": 3,
       "output": 6
-    },
-    "davinci-002": {
-      "training": 6,
-      "input": 12,
-      "output": 12
-    },
-    "babbage-002": {
-      "training": 0.4,
-      "input": 1.6,
-      "output": 1.6
     }
   },
   "tools": {
@@ -328,6 +426,15 @@
       "cost": 2.5
     },
     "web-search": {
+      "gpt-5.6-sol": 10,
+      "gpt-5.6-terra": 10,
+      "gpt-5.6-luna": 10,
+      "gpt-5.5": 10,
+      "gpt-5.5-pro": 10,
+      "gpt-5.4": 10,
+      "gpt-5.4-pro": 10,
+      "gpt-5.4-mini": 10,
+      "gpt-5.4-nano": 10,
       "gpt-4.1": 25,
       "gpt-4o": 25,
       "gpt-4o-search-preview": 25,
@@ -339,7 +446,6 @@
       "gpt-5-nano": 10,
       "o1": 10,
       "o1-pro": 10,
-      "o1-mini": 10,
       "o3": 10,
       "o3-pro": 10,
       "o3-mini": 10,
@@ -420,5 +526,17 @@
     "whisper": 0.006,
     "tts": 15,
     "tts-hd": 30
+  },
+  "video": {
+    "sora-2": {
+      "720p": 0.1,
+      "batchDiscount": 0.5
+    },
+    "sora-2-pro": {
+      "720p": 0.3,
+      "1024p": 0.5,
+      "1080p": 0.7,
+      "batchDiscount": 0.5
+    }
   }
 }
